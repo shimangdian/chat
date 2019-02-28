@@ -1,3 +1,20 @@
+### 环境
+nodejs
+
+#### 开始使用
+npm i
+
+``` javascript
+  node app
+  node ser
+```
+
+或
+
+双击根目录下的
+  startWSClient.bat
+  startWSServer.bat
+
 ### 待开发
 1.可以修改昵称
 2.字数限制
