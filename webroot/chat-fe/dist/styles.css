@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body{
+  height: 100%;
+  background:#eee;
+}
+.wrap{
+  height: 100%;
+  width:100%;
+  max-width:600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background:#fff;
+}
+ul{
+  flex:1;
+  overflow: auto;
+}
+ul li{
+  list-style: none;
+  padding:5px 10px;
+}
+.input-area{
+  height: 45px;
+  border-top:1px solid #eee;
+  border-bottom:1px solid #eee;
+}
+.input-area input{
+  outline: none;
+  float: left;
+  width:80%;
+  line-height: 45px;
+  height: 45px;
+  border: 0;
+}
+.input-area .ipt-btn{
+  width:20%;
+  cursor:pointer;
+}
+header{
+  text-align:center;
+  border-bottom:1px solid #eee;
+  padding:10px;
+}

@@ -68,7 +68,7 @@ var funWebSvr = function (req, res) {
     }
     
     //使用路径解析模块,组装实际文件路径 
-    var filePath = libPath.join("./webroot", pathName);
+    var filePath = libPath.join("./webroot/chat-fe/dist", pathName);
     
     //判断文件是否存在 
     libFs.exists(filePath, function (exists) {
