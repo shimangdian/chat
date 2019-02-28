@@ -2,9 +2,9 @@
 nodejs
 
 #### 开始使用
-npm i
 
 ``` javascript
+  npm i
   node app
   node ser
 ```
